@@ -5,7 +5,19 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#000000"
+    android:orientation="vertical"
     tools:context=".CallActivity">
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/container"
+        android:name="com.example.fakecallerapp.CallAcceptedFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="0dp"
+        android:background="#000000"
+        android:visibility="gone"
+        tools:layout="@layout/fragment_call_accepted" />
 
     <ImageButton
         android:id="@+id/acceptBtn"
