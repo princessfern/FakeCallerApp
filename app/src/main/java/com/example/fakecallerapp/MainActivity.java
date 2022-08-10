@@ -18,22 +18,16 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    public void makeCall(Intent intent){
-
-        startActivity(intent);
-    }
-
     public void callStart(View view){
         Intent intent = new Intent(this, CallActivity.class);
         new CountDownTimer(3000, 1000) {
             @Override
             public void onTick(long l) {
-
             }
 
             @Override
             public void onFinish() {
-               makeCall(intent);
+                startActivity(intent);
             }
         }.start();
     }

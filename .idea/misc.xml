@@ -4,7 +4,8 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/Julia/AndroidStudioProjects/FakeCallerApp/app/src/main/res/layout/activity_main.xml" value="0.18" />
-        <entry key="..\:/Users/Julia/AndroidStudioProjects/FakeCallerApp/app/src/main/res/layout/call_activity.xml" value="0.1" />
+        <entry key="..\:/Users/Julia/AndroidStudioProjects/FakeCallerApp/app/src/main/res/layout/call_activity.xml" value="0.22" />
+        <entry key="..\:/Users/Julia/AndroidStudioProjects/FakeCallerApp/app/src/main/res/layout/fragment_call_accepted.xml" value="0.22" />
       </map>
     </option>
   </component>
