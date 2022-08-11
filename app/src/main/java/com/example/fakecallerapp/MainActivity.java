@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void callStart(View view){
         Intent intent = new Intent(this, CallActivity.class);
-        new CountDownTimer(3000, 1000) {
+        new CountDownTimer(15000, 1000) {
             @Override
             public void onTick(long l) {
             }

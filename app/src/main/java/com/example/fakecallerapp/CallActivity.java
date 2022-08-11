@@ -33,4 +33,9 @@ public class CallActivity extends AppCompatActivity {
         frag = findViewById(R.id.container);
         frag.setVisibility(view.VISIBLE);
     }
+
+    public void endCall(View view){
+        CallActivity.this.finish();
+        System.exit(0);
+    }
 }

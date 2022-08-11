@@ -38,6 +38,7 @@
         android:layout_width="123dp"
         android:layout_height="133dp"
         android:background="#000000"
+        android:onClick="endCall"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.17"
